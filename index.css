@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(camera-man.jpg);
+    background-size: cover;
+}
+
+.navbar ul li img{
+    height:25px;
+    margin-right: 10px;
+}
+
+.bodyone {
+   
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(22, 61, 82, 0.9);
+}
+
+.container {
+    margin-top: 20px;
+    width: 75vw;
+    height: 80vh;
+    /* background-color: cornsilk; */
+}
+
+.navbar {
+    /* background-color: aqua; */
+    display: flex;
+    position: relative;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    font-size: 25px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.button {
+    display: flex;
+    position: absolute;
+    right: 0%;
+    font-size: 15px;
+    /* margin-top: 10px; */
+}
+
+.button p {
+    font-size: 18px;
+    margin-right: 20px;
+    color: rgb(122, 121, 121);
+    padding-top: 5px;
+}
+
+.button button {
+    width: 100px;
+    height: 35px;
+    /* margin-top: 10px; */
+    border-radius: 5px;
+    border: none;
+    background-color:  rgba(22, 61, 82, 1.5);
+    color: white;
+}
+
+.left {
+    /* background-color: aquamarine; */
+    width: 40vw;
+    margin-top: 100px;
+    color: white;
+}
+
+.left button {
+    margin-top: 30px;
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(46, 159, 102);
+    color: white;
+    font: bolder;
+    font-size: 18px;
+}
+
+.right {
+    /* background-color: brown; */
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.right img {
+    height: 250px;
+    width: 370px;
+}
+
+.main {
+    display: flex;
+    /* background-color: blue; */
+    height: 80vh;
+}
+
+.para {
+    /* background-color: brown; */
+    margin-top: 30px;
+    width: 350px;
+}
+
+.line {
+    margin-top: 10px;
+    font: bolder;
+}
